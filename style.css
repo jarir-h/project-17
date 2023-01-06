@@ -1,0 +1,242 @@
+*{
+    font-family: 'Anybody', cursive;
+}
+
+.manu-section{
+    background-color: #000;
+}
+.manu-section .main-logo{}
+
+.manu-section .main-logo a img{
+    width: 100px;
+    height: auto;
+}
+.manu-section .manu{}
+.manu-section .manu ul{
+    text-align: right;
+}
+.manu-section .manu ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+    position: relative;
+}
+.manu-section .manu ul li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    transition: .6s;
+}
+.manu-section .manu ul li:hover a{
+    color: rgb(19, 158, 213);
+    text-decoration: underline;
+}
+.manu-section .manu ul li ul{
+    position: absolute;
+    top: 130%;
+    right: 10%;
+    width: 150px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .6s;
+    background-color: #000;
+    display: inline-block;
+    text-align: center;
+}
+.manu-section .manu ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/*   Banner Section  */
+
+.banner{
+    background: url(./img/banner.jpg);
+    padding: 200px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner h1{
+    color: rgb(11, 9, 38);
+    font-size: 60px;
+    font-weight: 800px;
+}
+.banner p{
+    color: rgb(3, 3, 7);
+    font-size: 20px;
+    font-weight: bold;
+}
+.banner .btn a{
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+
+/*   About Section  */
+
+.about{
+    background-color: #779363;
+}
+.about h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+    border-bottom: 3px solid #fff;
+    text-shadow: 2px 3px 6px #fff;
+    color: #ffff;
+}
+.about p {
+    color: #fff;
+    text-align: justify;
+    margin-top: 42px;
+}
+.about img {
+    width: 200px;
+    height: auto;
+    margin-left: 70px;
+}
+
+/*   Service Section  */
+
+.service{
+    background-color: #59665e;
+}
+.service h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+    border-bottom: 3px solid #fff;
+    text-shadow: 2px 3px 6px #fff;
+    color: #ffff;
+}
+.service h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: #ffff;
+    padding-top: 10px;
+}
+.service p{
+    text-align: center;
+    color: rgb(203, 203, 203);
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+.service .box-1{
+    background-color: #fff;
+    clear: both;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+.service .box-1 .icon{
+    float: left;
+    height: 190px;
+    width: auto;
+    font-size: 60px;
+    color: rgb(19, 118, 118);
+    padding-right: 10px;
+}
+.service .box-1 h4{
+    text-align: center;
+    color: rgb(8, 83, 102);
+
+}
+.service .box-1 p{
+    color: rgb(87, 86, 86);
+    text-align: justify;
+}
+
+/*   Work Section  */
+
+.work{
+    background-color: #5f7c49;
+}
+.work h2{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+.work p{
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.work .img-box{
+    text-align: center;
+    border: 1px solid rgb(253, 253, 253);
+}
+.work .img-box img {
+    width: 544px;
+    height: auto;
+}
+.work .img-box p{
+    color: #394685;
+}
+.work .img-box samp{
+    color: #fff;
+}
+
+
+/*   Teem Section  */
+
+.teem{
+    background-color: #3d875e;
+}
+.teem .h2-br{
+    border-bottom: 3px solid #fff;
+    margin-bottom: 50px;
+ }
+.teem .h2-br { 
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+.teem .img-box2{
+    text-align: center;
+}
+.teem .img-box2 i {
+    color: #fff;
+    font-size: 25px;
+    padding-top: 20px;
+    margin-left: 15px;
+}
+.teem .img-box2 i:hover{
+    color: #0d26e65a;
+}
+
+/*   Mini Footer Sectio  */
+
+.mini-footer{
+    background-color: #5a605c;
+    text-align: center;
+}
+.mini-footer h2{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 30px;
+}  
+.mini-footer p{
+    text-align: center;
+    color: rgb(198, 196, 196);
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+/*   Footer Section  */
+
+.footer{
+    background-color: rgb(16, 15, 15);
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
